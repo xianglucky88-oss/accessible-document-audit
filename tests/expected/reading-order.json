@@ -1,0 +1,16 @@
+[
+  {
+    "fact_id": "obj05",
+    "page": 1,
+    "order": 1,
+    "role": "H1",
+    "text": "Before arrival"
+  },
+  {
+    "fact_id": "obj12",
+    "page": 1,
+    "order": 2,
+    "role": "P",
+    "text": "Carry identification."
+  }
+]

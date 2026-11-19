@@ -1,0 +1,15 @@
+[
+  {
+    "fact_id": "TD-42",
+    "table": "fees",
+    "headers": [
+      {
+        "id": "TH-02",
+        "text": "Period"
+      }
+    ],
+    "unresolved_headers": [
+      "TH-99"
+    ]
+  }
+]

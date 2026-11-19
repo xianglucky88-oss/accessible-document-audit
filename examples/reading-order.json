@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "id": "obj12",
+      "page": 1,
+      "tag_order": 2,
+      "role": "P",
+      "text": "Carry identification."
+    },
+    {
+      "id": "obj05",
+      "page": 1,
+      "tag_order": 1,
+      "role": "H1",
+      "text": "Before arrival"
+    }
+  ]
+}

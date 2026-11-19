@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "id": "TD-42",
+      "table": "fees",
+      "header_ids": [
+        "TH-02",
+        "TH-99"
+      ]
+    }
+  ],
+  "headers": [
+    {
+      "id": "TH-02",
+      "table": "fees",
+      "label": "Period"
+    }
+  ]
+}

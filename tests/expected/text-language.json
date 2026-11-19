@@ -1,0 +1,12 @@
+[
+  {
+    "fact_id": "paragraph-2",
+    "language": "fr",
+    "source": "explicit"
+  },
+  {
+    "fact_id": "paragraph-3",
+    "language": "zh-Hans",
+    "source": "document"
+  }
+]
