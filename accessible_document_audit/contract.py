@@ -44,6 +44,15 @@ def flag(row: Row, field: str) -> bool:
     return value
 
 
+def text_list(row: Row, field: str, *, default: list[str] | None = None) -> list[str]:
+    value = row.get(field, default) if default is not None else row[field]
+    if not isinstance(value, list):
+        raise ValueError(f"{field} must be a list of text values")
+    if any(not isinstance(item, str) or not item.strip() for item in value):
+        raise ValueError(f"{field} must contain nonempty text values")
+    return list(dict.fromkeys(value))
+
+
 def index_rows(rows: list[Row], field: str) -> dict[str, Row]:
     result = {}
     for row in rows:

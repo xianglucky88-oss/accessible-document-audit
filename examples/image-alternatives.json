@@ -1,10 +1,120 @@
 {
+  "published_languages": ["zh-Hans", "en"],
+  "texts": [
+    {"id": "t-zh-route", "language": "zh-Hans", "content": "沿北侧通道直行至楼梯间，再向下两层。", "covers": ["route"]},
+    {"id": "t-zh-exit-a", "language": "zh-Hans", "content": "由三号出口离开建筑。", "covers": ["exit-a"]},
+    {"id": "t-zh-exit-only", "language": "zh-Hans", "content": "三号出口。", "covers": ["exit-a"]},
+    {"id": "t-zh-revised", "language": "zh-Hans", "content": "三号出口已封闭，改由四号出口离开。", "covers": ["route", "exit-b"]},
+    {"id": "t-en-route", "language": "en", "content": "Walk straight along the north corridor to the stairwell, then go down two floors.", "covers": ["route"]},
+    {"id": "t-en-exit", "language": "en", "content": "Leave the building through exit 3.", "covers": ["exit-a"]}
+  ],
+  "descriptions": [
+    {"id": "d-zh-route", "language": "zh-Hans", "text_ids": ["t-zh-route", "t-zh-exit-a"]},
+    {"id": "d-en-route", "language": "en", "translation_of": "d-zh-route", "text_ids": ["t-en-route", "t-en-exit"]},
+    {"id": "d-zh-assembly", "language": "zh-Hans", "includes": ["d-zh-route"]},
+    {"id": "d-zh-exit-only", "language": "zh-Hans", "text_ids": ["t-zh-exit-only"]},
+    {"id": "d-zh-revised", "language": "zh-Hans", "text_ids": ["t-zh-revised"], "corrections": ["exit-a"]},
+    {"id": "d-zh-damaged", "language": "zh-Hans", "text_ids": ["t-zh-route", "t-zh-deleted"]},
+    {"id": "d-zh-open", "language": "zh-Hans", "text_ids": ["t-zh-route"], "includes": ["d-zh-missing"]},
+    {"id": "d-zh-loop", "language": "zh-Hans", "text_ids": ["t-zh-route"], "includes": ["d-zh-loop-two"]},
+    {"id": "d-zh-loop-two", "language": "zh-Hans", "includes": ["d-zh-loop"]}
+  ],
   "records": [
     {
-      "id": "appearance-01",
-      "page": 2,
-      "object": "figure-stream-2",
-      "alternate_text": "Route from north gate"
+      "id": "fig-floor3-body",
+      "page": 3,
+      "object": "figure-floor3",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route", "exit-a"],
+      "description_ids": ["d-zh-route"]
+    },
+    {
+      "id": "fig-floor4-body",
+      "page": 4,
+      "object": "figure-floor4",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route", "exit-a"],
+      "description_ids": ["d-zh-assembly"]
+    },
+    {
+      "id": "fig-floor5-body",
+      "page": 5,
+      "object": "figure-floor5",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route", "exit-a"],
+      "description_ids": ["d-zh-exit-only"],
+      "published_languages": ["zh-Hans"]
+    },
+    {
+      "id": "fig-floor6-body",
+      "page": 6,
+      "object": "figure-floor6",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route", "exit-a"],
+      "description_ids": ["d-zh-revised"],
+      "published_languages": ["zh-Hans"]
+    },
+    {
+      "id": "fig-floor7-body",
+      "page": 7,
+      "object": "figure-floor7",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route"],
+      "description_ids": ["d-zh-revised"],
+      "published_languages": ["zh-Hans"]
+    },
+    {
+      "id": "fig-floor8-decoration",
+      "page": 8,
+      "object": "crop-floor8-corner",
+      "purpose": "decoration",
+      "placement": "chapter-decoration",
+      "required_items": [],
+      "description_ids": ["d-zh-route"]
+    },
+    {
+      "id": "fig-floor9-body",
+      "page": 9,
+      "object": "figure-floor9",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route", "exit-a"],
+      "description_ids": ["d-zh-open"],
+      "published_languages": ["zh-Hans"]
+    },
+    {
+      "id": "fig-floor10-body",
+      "page": 10,
+      "object": "figure-floor10",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["exit-a"],
+      "description_ids": ["d-zh-exit-only"]
+    },
+    {
+      "id": "fig-floor11-body",
+      "page": 11,
+      "object": "figure-floor11",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route"],
+      "description_ids": ["d-zh-damaged"],
+      "published_languages": ["zh-Hans"]
+    },
+    {
+      "id": "fig-floor12-body",
+      "page": 12,
+      "object": "figure-floor12",
+      "purpose": "wayfinding",
+      "placement": "body",
+      "required_items": ["route", "exit-a"],
+      "description_ids": ["d-zh-loop"],
+      "published_languages": ["zh-Hans"]
     }
   ]
 }

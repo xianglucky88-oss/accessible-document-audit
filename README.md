@@ -21,7 +21,9 @@ Python 调用入口为 `process(pipeline, data)`。命令行也可以将 JSON �
 | `reading-order` | 按单页结构标签提供的次序生成朗读对象序列。 | `examples/reading-order.json` |
 | `table-headers` | 按显式关联解析单个数据格引用的表头对象。 | `examples/table-headers.json` |
 | `form-controls` | 识别缺少显式辅助技术标签的可交互字段。 | `examples/form-controls.json` |
-| `image-alternatives` | 按图形对象记录显式替代说明及其缺失情况。 | `examples/image-alternatives.json` |
+| `image-alternatives` | 按图的用途、出现位置和发布语言核对替代说明可读到的必要路线信息，并列出缺项、缺译文和引用缺口。 | `examples/image-alternatives.json` |
 | `text-language` | 在忽略嵌套覆盖的扁平节点上读取节点语言或文档默认语言。 | `examples/text-language.json` |
 
 活动口径来自各样本。样例记录的业务标识用作事实键或保留在结果中。`tests/expected` 中的结果只描述这些基线试样。合成数据和示例规则用于开发验证，实际签发、专业判定及合规认证需采用对应项目的正式数据与规则。
+
+`image-alternatives` 的输入除 `records` 外还包含 `texts` 与 `descriptions`。图记录用 `purpose`（`wayfinding` 或 `decoration`）、`placement`（`body` 或 `chapter-decoration`）、`required_items` 和 `description_ids` 描述用途、出现位置与必须传达的路线项；`published_languages` 缺省取文档级的发布语言。文字段以 `language`、`content` 和 `covers` 登记覆盖的路线项；说明以 `language`、`text_ids`、`includes`、`corrections` 组成，译文另以 `translation_of` 指向原文。每处图按发布语言各产出一条事实，报告 `covered_items`、`missing_items`、`corrected_items`、`missing_translations`、`unresolved_references` 和 `status`。

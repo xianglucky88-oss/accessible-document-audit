@@ -1,9 +1,348 @@
 [
   {
-    "fact_id": "appearance-01",
-    "page": 2,
-    "object": "figure-stream-2",
-    "alternate_text": "Route from north gate",
-    "has_alternative": true
+    "corrected_items": [],
+    "covered_items": [
+      "route",
+      "exit-a"
+    ],
+    "description_ids": [
+      "d-zh-route"
+    ],
+    "fact_id": "fig-floor3-body@en",
+    "language": "en",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "figure-floor3",
+    "page": 3,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "verified",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "route",
+      "exit-a"
+    ],
+    "description_ids": [
+      "d-zh-assembly"
+    ],
+    "fact_id": "fig-floor4-body@en",
+    "language": "en",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "figure-floor4",
+    "page": 4,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "verified",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [],
+    "description_ids": [
+      "d-zh-exit-only"
+    ],
+    "fact_id": "fig-floor10-body@en",
+    "language": "en",
+    "missing_items": [
+      "exit-a"
+    ],
+    "missing_translations": [
+      {
+        "description": "d-zh-exit-only",
+        "language": "en",
+        "through": null
+      }
+    ],
+    "object": "figure-floor10",
+    "page": 10,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "exit-a"
+    ],
+    "status": "needs_supplement",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [],
+    "description_ids": [
+      "d-zh-route"
+    ],
+    "fact_id": "fig-floor8-decoration@en",
+    "language": "en",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "crop-floor8-corner",
+    "page": 8,
+    "placement": "chapter-decoration",
+    "purpose": "decoration",
+    "required_items": [],
+    "status": "verified",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "route",
+      "exit-a"
+    ],
+    "description_ids": [
+      "d-zh-route"
+    ],
+    "fact_id": "fig-floor3-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "figure-floor3",
+    "page": 3,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "verified",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "route",
+      "exit-a"
+    ],
+    "description_ids": [
+      "d-zh-assembly"
+    ],
+    "fact_id": "fig-floor4-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "figure-floor4",
+    "page": 4,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "verified",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "exit-a"
+    ],
+    "description_ids": [
+      "d-zh-exit-only"
+    ],
+    "fact_id": "fig-floor5-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [
+      "route"
+    ],
+    "missing_translations": [],
+    "object": "figure-floor5",
+    "page": 5,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "needs_supplement",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [
+      "exit-a"
+    ],
+    "covered_items": [
+      "route"
+    ],
+    "description_ids": [
+      "d-zh-revised"
+    ],
+    "fact_id": "fig-floor6-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [
+      "exit-a"
+    ],
+    "missing_translations": [],
+    "object": "figure-floor6",
+    "page": 6,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "needs_supplement",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "route"
+    ],
+    "description_ids": [
+      "d-zh-revised"
+    ],
+    "fact_id": "fig-floor7-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "figure-floor7",
+    "page": 7,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route"
+    ],
+    "status": "verified",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "route"
+    ],
+    "description_ids": [
+      "d-zh-open"
+    ],
+    "fact_id": "fig-floor9-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [
+      "exit-a"
+    ],
+    "missing_translations": [],
+    "object": "figure-floor9",
+    "page": 9,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "needs_supplement",
+    "unresolved_references": [
+      {
+        "id": "d-zh-missing",
+        "kind": "description",
+        "through": "d-zh-open"
+      }
+    ]
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "exit-a"
+    ],
+    "description_ids": [
+      "d-zh-exit-only"
+    ],
+    "fact_id": "fig-floor10-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "figure-floor10",
+    "page": 10,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "exit-a"
+    ],
+    "status": "verified",
+    "unresolved_references": []
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "route"
+    ],
+    "description_ids": [
+      "d-zh-damaged"
+    ],
+    "fact_id": "fig-floor11-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "figure-floor11",
+    "page": 11,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route"
+    ],
+    "status": "needs_supplement",
+    "unresolved_references": [
+      {
+        "id": "t-zh-deleted",
+        "kind": "text",
+        "through": "d-zh-damaged"
+      }
+    ]
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [
+      "route"
+    ],
+    "description_ids": [
+      "d-zh-loop"
+    ],
+    "fact_id": "fig-floor12-body@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [
+      "exit-a"
+    ],
+    "missing_translations": [],
+    "object": "figure-floor12",
+    "page": 12,
+    "placement": "body",
+    "purpose": "wayfinding",
+    "required_items": [
+      "route",
+      "exit-a"
+    ],
+    "status": "needs_supplement",
+    "unresolved_references": [
+      {
+        "id": "d-zh-loop",
+        "kind": "cycle",
+        "through": "d-zh-loop-two"
+      }
+    ]
+  },
+  {
+    "corrected_items": [],
+    "covered_items": [],
+    "description_ids": [
+      "d-zh-route"
+    ],
+    "fact_id": "fig-floor8-decoration@zh-Hans",
+    "language": "zh-Hans",
+    "missing_items": [],
+    "missing_translations": [],
+    "object": "crop-floor8-corner",
+    "page": 8,
+    "placement": "chapter-decoration",
+    "purpose": "decoration",
+    "required_items": [],
+    "status": "verified",
+    "unresolved_references": []
   }
 ]
