@@ -1,0 +1,654 @@
+[
+  {
+    "candidates": [
+      {
+        "id": "ch-003",
+        "language": "zh",
+        "page": 12,
+        "title": "窗口地址"
+      },
+      {
+        "id": "ch-004",
+        "language": "zh",
+        "page": 12,
+        "title": "常见问题"
+      }
+    ],
+    "entries": [
+      "nav-body-02"
+    ],
+    "fact_id": "ambiguity:alias:shared-alias",
+    "issue": "ambiguous-alias",
+    "ref": {
+      "kind": "alias",
+      "value": "shared-alias"
+    }
+  },
+  {
+    "candidates": [
+      {
+        "id": "ch-003",
+        "language": "zh",
+        "page": 12,
+        "title": "窗口地址"
+      },
+      {
+        "id": "ch-004",
+        "language": "zh",
+        "page": 12,
+        "title": "常见问题"
+      }
+    ],
+    "entries": [
+      "nav-body-03",
+      "nav-body-04",
+      "nav-fr-04"
+    ],
+    "fact_id": "ambiguity:page:12",
+    "issue": "ambiguous-page",
+    "ref": {
+      "kind": "page",
+      "value": 12
+    }
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [],
+    "chapter": "ch-002",
+    "chapter_title": "材料清单",
+    "entries": [
+      "nav-fr-02"
+    ],
+    "fact_id": "coverage:fr:ch-002",
+    "language": "fr",
+    "reachable": true,
+    "target_kind": "source-fallback"
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [],
+    "chapter": "ch-006",
+    "chapter_title": "线上预约",
+    "entries": [
+      "nav-fr-03"
+    ],
+    "fact_id": "coverage:fr:ch-006",
+    "language": "fr",
+    "reachable": true,
+    "target_kind": "source-fallback"
+  },
+  {
+    "arrival_language": "fr",
+    "attempting_entries": [],
+    "chapter": "fr-001",
+    "chapter_title": "Avant de demander",
+    "entries": [
+      "nav-fr-01"
+    ],
+    "fact_id": "coverage:fr:fr-001",
+    "language": "fr",
+    "reachable": true,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "fr",
+    "attempting_entries": [],
+    "chapter": "fr-002",
+    "chapter_title": "Liste des pièces",
+    "entries": [],
+    "fact_id": "coverage:fr:fr-002",
+    "language": "fr",
+    "reachable": false,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "fr",
+    "attempting_entries": [],
+    "chapter": "fr-003",
+    "chapter_title": "Rendez-vous en ligne",
+    "entries": [],
+    "fact_id": "coverage:fr:fr-003",
+    "language": "fr",
+    "reachable": false,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [],
+    "chapter": "ch-001",
+    "chapter_title": "申请前须知",
+    "entries": [
+      "nav-toc-01"
+    ],
+    "fact_id": "coverage:zh:ch-001",
+    "language": "zh",
+    "reachable": true,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [],
+    "chapter": "ch-002",
+    "chapter_title": "材料清单",
+    "entries": [
+      "nav-body-01",
+      "nav-body-06"
+    ],
+    "fact_id": "coverage:zh:ch-002",
+    "language": "zh",
+    "reachable": true,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [
+      "nav-body-02",
+      "nav-body-03",
+      "nav-body-04"
+    ],
+    "chapter": "ch-003",
+    "chapter_title": "窗口地址",
+    "entries": [],
+    "fact_id": "coverage:zh:ch-003",
+    "language": "zh",
+    "reachable": false,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [
+      "nav-body-02",
+      "nav-body-03",
+      "nav-body-04"
+    ],
+    "chapter": "ch-004",
+    "chapter_title": "常见问题",
+    "entries": [],
+    "fact_id": "coverage:zh:ch-004",
+    "language": "zh",
+    "reachable": false,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [],
+    "chapter": "ch-005",
+    "chapter_title": "投诉与监督",
+    "entries": [],
+    "fact_id": "coverage:zh:ch-005",
+    "language": "zh",
+    "reachable": false,
+    "target_kind": "native"
+  },
+  {
+    "arrival_language": "zh",
+    "attempting_entries": [],
+    "chapter": "ch-006",
+    "chapter_title": "线上预约",
+    "entries": [
+      "nav-body-09"
+    ],
+    "fact_id": "coverage:zh:ch-006",
+    "language": "zh",
+    "reachable": true,
+    "target_kind": "native"
+  },
+  {
+    "cycle_refs": [
+      {
+        "kind": "page",
+        "value": 30
+      },
+      {
+        "kind": "page",
+        "value": 31
+      },
+      {
+        "kind": "page",
+        "value": 30
+      }
+    ],
+    "entries": [
+      "nav-body-05"
+    ],
+    "fact_id": "cycle:page:30->page:31",
+    "issue": "redirect-cycle"
+  },
+  {
+    "arrival_language": "zh",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "alias",
+      "value": "old-materials"
+    },
+    "entry_id": "nav-body-01",
+    "fact_id": "entry:nav-body-01",
+    "final_chapter": "ch-002",
+    "issue": null,
+    "language": "zh",
+    "location": "正文第2页",
+    "matched_by": "alias",
+    "requirement_result": "required",
+    "resolution_path": [
+      {
+        "kind": "alias",
+        "value": "old-materials"
+      }
+    ],
+    "status": "resolved"
+  },
+  {
+    "arrival_language": null,
+    "candidates": [
+      {
+        "id": "ch-003",
+        "language": "zh",
+        "page": 12,
+        "title": "窗口地址"
+      },
+      {
+        "id": "ch-004",
+        "language": "zh",
+        "page": 12,
+        "title": "常见问题"
+      }
+    ],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "alias",
+      "value": "shared-alias"
+    },
+    "entry_id": "nav-body-02",
+    "fact_id": "entry:nav-body-02",
+    "final_chapter": null,
+    "issue": "ambiguous-alias",
+    "language": "zh",
+    "location": "正文第3页",
+    "matched_by": null,
+    "requirement_result": "unreachable",
+    "resolution_path": [
+      {
+        "kind": "alias",
+        "value": "shared-alias"
+      }
+    ],
+    "status": "ambiguous"
+  },
+  {
+    "arrival_language": null,
+    "candidates": [
+      {
+        "id": "ch-003",
+        "language": "zh",
+        "page": 12,
+        "title": "窗口地址"
+      },
+      {
+        "id": "ch-004",
+        "language": "zh",
+        "page": 12,
+        "title": "常见问题"
+      }
+    ],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "page",
+      "value": 12
+    },
+    "entry_id": "nav-body-03",
+    "fact_id": "entry:nav-body-03",
+    "final_chapter": null,
+    "issue": "ambiguous-page",
+    "language": "zh",
+    "location": "正文第3页",
+    "matched_by": null,
+    "requirement_result": "unreachable",
+    "resolution_path": [
+      {
+        "kind": "page",
+        "value": 12
+      }
+    ],
+    "status": "ambiguous"
+  },
+  {
+    "arrival_language": null,
+    "candidates": [
+      {
+        "id": "ch-003",
+        "language": "zh",
+        "page": 12,
+        "title": "窗口地址"
+      },
+      {
+        "id": "ch-004",
+        "language": "zh",
+        "page": 12,
+        "title": "常见问题"
+      }
+    ],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "alias",
+      "value": "old-hours"
+    },
+    "entry_id": "nav-body-04",
+    "fact_id": "entry:nav-body-04",
+    "final_chapter": null,
+    "issue": "ambiguous-declaration",
+    "language": "zh",
+    "location": "正文第4页",
+    "matched_by": null,
+    "requirement_result": "unreachable",
+    "resolution_path": [
+      {
+        "kind": "alias",
+        "value": "old-hours"
+      },
+      {
+        "kind": "page",
+        "value": 12
+      }
+    ],
+    "status": "ambiguous"
+  },
+  {
+    "arrival_language": null,
+    "candidates": [],
+    "cycle_refs": [
+      {
+        "kind": "page",
+        "value": 30
+      },
+      {
+        "kind": "page",
+        "value": 31
+      }
+    ],
+    "declared_target": {
+      "kind": "page",
+      "value": 30
+    },
+    "entry_id": "nav-body-05",
+    "fact_id": "entry:nav-body-05",
+    "final_chapter": null,
+    "issue": "redirect-cycle",
+    "language": "zh",
+    "location": "正文第5页",
+    "matched_by": null,
+    "requirement_result": "unreachable",
+    "resolution_path": [
+      {
+        "kind": "page",
+        "value": 30
+      },
+      {
+        "kind": "page",
+        "value": 31
+      },
+      {
+        "kind": "page",
+        "value": 30
+      }
+    ],
+    "status": "cycle"
+  },
+  {
+    "arrival_language": "zh",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "alias",
+      "value": "old-faq"
+    },
+    "entry_id": "nav-body-06",
+    "fact_id": "entry:nav-body-06",
+    "final_chapter": "ch-002",
+    "issue": null,
+    "language": "zh",
+    "location": "正文第6页",
+    "matched_by": "alias",
+    "requirement_result": "required",
+    "resolution_path": [
+      {
+        "kind": "alias",
+        "value": "old-faq"
+      },
+      {
+        "kind": "alias",
+        "value": "old-materials"
+      }
+    ],
+    "status": "resolved"
+  },
+  {
+    "arrival_language": null,
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "page",
+      "value": 99
+    },
+    "entry_id": "nav-body-07",
+    "fact_id": "entry:nav-body-07",
+    "final_chapter": null,
+    "issue": "unknown-page",
+    "language": "zh",
+    "location": "正文第7页",
+    "matched_by": null,
+    "requirement_result": "unreachable",
+    "resolution_path": [
+      {
+        "kind": "page",
+        "value": 99
+      }
+    ],
+    "status": "unresolved"
+  },
+  {
+    "arrival_language": null,
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "alias",
+      "value": "missing-alias"
+    },
+    "entry_id": "nav-body-08",
+    "fact_id": "entry:nav-body-08",
+    "final_chapter": null,
+    "issue": "unknown-alias",
+    "language": "zh",
+    "location": "正文第8页",
+    "matched_by": null,
+    "requirement_result": "unreachable",
+    "resolution_path": [
+      {
+        "kind": "alias",
+        "value": "missing-alias"
+      }
+    ],
+    "status": "unresolved"
+  },
+  {
+    "arrival_language": "zh",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "chapter",
+      "value": "ch-006"
+    },
+    "entry_id": "nav-body-09",
+    "fact_id": "entry:nav-body-09",
+    "final_chapter": "ch-006",
+    "issue": null,
+    "language": "zh",
+    "location": "正文第9页",
+    "matched_by": "chapter",
+    "requirement_result": "required",
+    "resolution_path": [
+      {
+        "kind": "chapter",
+        "value": "ch-006"
+      }
+    ],
+    "status": "resolved"
+  },
+  {
+    "arrival_language": "fr",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "chapter",
+      "value": "fr-001"
+    },
+    "entry_id": "nav-body-10",
+    "fact_id": "entry:nav-body-10",
+    "final_chapter": "fr-001",
+    "issue": "source-target-not-allowed",
+    "language": "zh",
+    "location": "正文第10页",
+    "matched_by": "chapter",
+    "requirement_result": "not-required",
+    "resolution_path": [
+      {
+        "kind": "chapter",
+        "value": "fr-001"
+      }
+    ],
+    "status": "resolved"
+  },
+  {
+    "arrival_language": "fr",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "page",
+      "value": 5
+    },
+    "entry_id": "nav-fr-01",
+    "fact_id": "entry:nav-fr-01",
+    "final_chapter": "fr-001",
+    "issue": null,
+    "language": "fr",
+    "location": "sommaire",
+    "matched_by": "page",
+    "requirement_result": "required",
+    "resolution_path": [
+      {
+        "kind": "page",
+        "value": 5
+      }
+    ],
+    "status": "resolved"
+  },
+  {
+    "arrival_language": "zh",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "chapter",
+      "value": "ch-002"
+    },
+    "entry_id": "nav-fr-02",
+    "fact_id": "entry:nav-fr-02",
+    "final_chapter": "ch-002",
+    "issue": null,
+    "language": "fr",
+    "location": "corps p.2",
+    "matched_by": "chapter",
+    "requirement_result": "source-fallback",
+    "resolution_path": [
+      {
+        "kind": "chapter",
+        "value": "ch-002"
+      }
+    ],
+    "status": "resolved"
+  },
+  {
+    "arrival_language": "zh",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "chapter",
+      "value": "ch-006"
+    },
+    "entry_id": "nav-fr-03",
+    "fact_id": "entry:nav-fr-03",
+    "final_chapter": "ch-006",
+    "issue": null,
+    "language": "fr",
+    "location": "corps p.6",
+    "matched_by": "chapter",
+    "requirement_result": "source-fallback",
+    "resolution_path": [
+      {
+        "kind": "chapter",
+        "value": "ch-006"
+      }
+    ],
+    "status": "resolved"
+  },
+  {
+    "arrival_language": null,
+    "candidates": [
+      {
+        "id": "ch-003",
+        "language": "zh",
+        "page": 12,
+        "title": "窗口地址"
+      },
+      {
+        "id": "ch-004",
+        "language": "zh",
+        "page": 12,
+        "title": "常见问题"
+      }
+    ],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "page",
+      "value": 12
+    },
+    "entry_id": "nav-fr-04",
+    "fact_id": "entry:nav-fr-04",
+    "final_chapter": null,
+    "issue": "ambiguous-page",
+    "language": "fr",
+    "location": "corps p.7",
+    "matched_by": null,
+    "requirement_result": "unreachable",
+    "resolution_path": [
+      {
+        "kind": "page",
+        "value": 12
+      }
+    ],
+    "status": "ambiguous"
+  },
+  {
+    "arrival_language": "zh",
+    "candidates": [],
+    "cycle_refs": [],
+    "declared_target": {
+      "kind": "page",
+      "value": 4
+    },
+    "entry_id": "nav-toc-01",
+    "fact_id": "entry:nav-toc-01",
+    "final_chapter": "ch-001",
+    "issue": null,
+    "language": "zh",
+    "location": "目录",
+    "matched_by": "page",
+    "requirement_result": "required",
+    "resolution_path": [
+      {
+        "kind": "page",
+        "value": 4
+      }
+    ],
+    "status": "resolved"
+  }
+]

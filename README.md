@@ -23,5 +23,6 @@ Python 调用入口为 `process(pipeline, data)`。命令行也可以将 JSON �
 | `form-controls` | 识别缺少显式辅助技术标签的可交互字段。 | `examples/form-controls.json` |
 | `image-alternatives` | 按图形对象记录显式替代说明及其缺失情况。 | `examples/image-alternatives.json` |
 | `text-language` | 在忽略嵌套覆盖的扁平节点上读取节点语言或文档默认语言。 | `examples/text-language.json` |
+| `navigation-links` | 沿页码、旧别名与转跳声明解析导航入口最终落章，核验语言必达章节覆盖。 | `examples/navigation-links.json` |
 
 活动口径来自各样本。样例记录的业务标识用作事实键或保留在结果中。`tests/expected` 中的结果只描述这些基线试样。合成数据和示例规则用于开发验证，实际签发、专业判定及合规认证需采用对应项目的正式数据与规则。

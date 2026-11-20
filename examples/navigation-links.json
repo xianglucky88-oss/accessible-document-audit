@@ -1,0 +1,194 @@
+{
+  "structure": [
+    {
+      "id": "ch-001",
+      "title": "申请前须知",
+      "language": "zh",
+      "page": 4,
+      "aliases": ["old-intro"]
+    },
+    {
+      "id": "ch-002",
+      "title": "材料清单",
+      "language": "zh",
+      "page": 8,
+      "aliases": ["old-materials"]
+    },
+    {
+      "id": "ch-003",
+      "title": "窗口地址",
+      "language": "zh",
+      "page": 12,
+      "aliases": ["old-window", "shared-alias"]
+    },
+    {
+      "id": "ch-004",
+      "title": "常见问题",
+      "language": "zh",
+      "page": 12,
+      "aliases": ["shared-alias"]
+    },
+    {
+      "id": "ch-005",
+      "title": "投诉与监督",
+      "language": "zh",
+      "page": 15,
+      "aliases": []
+    },
+    {
+      "id": "ch-006",
+      "title": "线上预约",
+      "language": "zh",
+      "page": 20,
+      "aliases": ["old-booking"]
+    },
+    {
+      "id": "fr-001",
+      "title": "Avant de demander",
+      "language": "fr",
+      "page": 5,
+      "aliases": []
+    },
+    {
+      "id": "fr-002",
+      "title": "Liste des pièces",
+      "language": "fr",
+      "page": 9,
+      "aliases": []
+    },
+    {
+      "id": "fr-003",
+      "title": "Rendez-vous en ligne",
+      "language": "fr",
+      "page": 21,
+      "aliases": []
+    }
+  ],
+  "redirects": [
+    {
+      "from": {"kind": "alias", "value": "old-hours"},
+      "to": {"kind": "page", "value": 12}
+    },
+    {
+      "from": {"kind": "alias", "value": "old-hours"},
+      "to": {"kind": "chapter", "value": "ch-004"}
+    },
+    {
+      "from": {"kind": "alias", "value": "old-faq"},
+      "to": {"kind": "alias", "value": "old-materials"}
+    },
+    {
+      "from": {"kind": "page", "value": 30},
+      "to": {"kind": "page", "value": 31}
+    },
+    {
+      "from": {"kind": "page", "value": 31},
+      "to": {"kind": "page", "value": 30}
+    }
+  ],
+  "entries": [
+    {
+      "id": "nav-toc-01",
+      "location": "目录",
+      "language": "zh",
+      "target": {"kind": "page", "value": 4}
+    },
+    {
+      "id": "nav-body-01",
+      "location": "正文第2页",
+      "language": "zh",
+      "target": {"kind": "alias", "value": "old-materials"}
+    },
+    {
+      "id": "nav-body-02",
+      "location": "正文第3页",
+      "language": "zh",
+      "target": {"kind": "alias", "value": "shared-alias"}
+    },
+    {
+      "id": "nav-body-03",
+      "location": "正文第3页",
+      "language": "zh",
+      "target": {"kind": "page", "value": 12}
+    },
+    {
+      "id": "nav-body-04",
+      "location": "正文第4页",
+      "language": "zh",
+      "target": {"kind": "alias", "value": "old-hours"}
+    },
+    {
+      "id": "nav-body-05",
+      "location": "正文第5页",
+      "language": "zh",
+      "target": {"kind": "page", "value": 30}
+    },
+    {
+      "id": "nav-body-06",
+      "location": "正文第6页",
+      "language": "zh",
+      "target": {"kind": "alias", "value": "old-faq"}
+    },
+    {
+      "id": "nav-body-07",
+      "location": "正文第7页",
+      "language": "zh",
+      "target": {"kind": "page", "value": 99}
+    },
+    {
+      "id": "nav-body-08",
+      "location": "正文第8页",
+      "language": "zh",
+      "target": {"kind": "alias", "value": "missing-alias"}
+    },
+    {
+      "id": "nav-body-09",
+      "location": "正文第9页",
+      "language": "zh",
+      "target": {"kind": "chapter", "value": "ch-006"}
+    },
+    {
+      "id": "nav-body-10",
+      "location": "正文第10页",
+      "language": "zh",
+      "target": {"kind": "chapter", "value": "fr-001"}
+    },
+    {
+      "id": "nav-fr-01",
+      "location": "sommaire",
+      "language": "fr",
+      "target": {"kind": "page", "value": 5}
+    },
+    {
+      "id": "nav-fr-02",
+      "location": "corps p.2",
+      "language": "fr",
+      "target": {"kind": "chapter", "value": "ch-002"}
+    },
+    {
+      "id": "nav-fr-03",
+      "location": "corps p.6",
+      "language": "fr",
+      "target": {"kind": "chapter", "value": "ch-006"}
+    },
+    {
+      "id": "nav-fr-04",
+      "location": "corps p.7",
+      "language": "fr",
+      "target": {"kind": "page", "value": 12}
+    }
+  ],
+  "requirements": [
+    {
+      "language": "zh",
+      "chapters": ["ch-001", "ch-002", "ch-003", "ch-004", "ch-005", "ch-006"]
+    },
+    {
+      "language": "fr",
+      "chapters": ["fr-001", "fr-002", "fr-003"],
+      "source_target_allowed": true,
+      "source_language": "zh",
+      "source_chapters": ["ch-002", "ch-006"]
+    }
+  ]
+}

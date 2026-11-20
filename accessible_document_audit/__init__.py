@@ -1,6 +1,6 @@
 """文档无障碍证据审计"""
 
-from . import reading_order, table_headers, form_controls, image_alternatives, text_language
+from . import reading_order, table_headers, form_controls, image_alternatives, text_language, navigation_links
 from .contract import Row
 
 PIPELINES = {
@@ -9,6 +9,7 @@ PIPELINES = {
     "form-controls": form_controls.build_facts,
     "image-alternatives": image_alternatives.build_facts,
     "text-language": text_language.build_facts,
+    "navigation-links": navigation_links.build_facts,
 }
 
 
