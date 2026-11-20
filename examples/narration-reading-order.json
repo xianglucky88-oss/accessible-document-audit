@@ -1,0 +1,42 @@
+{
+  "document_language": "zh-Hans",
+  "fragments": [
+    {"id": "f1", "paragraph": "p1", "page": 1, "layout_order": 1, "start": 0, "end": 4, "text": "安全须知", "continues_to": "f2"},
+    {"id": "f1b", "paragraph": "p1", "page": 1, "layout_order": 1, "start": 0, "end": 4, "text": "安全须知", "continues_to": "f2"},
+    {"id": "f2", "paragraph": "p1", "page": 2, "layout_order": 1, "start": 4, "end": 9, "text": "请阅读边注", "continues_to": "f3"},
+    {"id": "f3", "paragraph": "p2", "page": 2, "layout_order": 5, "start": 9, "end": 16, "text": "操作前检查设备", "continues_to": "f4"},
+    {"id": "f4", "paragraph": "p2", "page": 2, "layout_order": 2, "start": 16, "end": 22, "text": "确认护具佩戴", "continues_to": "f5"},
+    {"id": "f5", "paragraph": "p3", "page": 2, "layout_order": 3, "start": 22, "end": 26, "text": "注意安全", "continues_to": "f6"},
+    {"id": "f6", "paragraph": "p4", "page": 2, "layout_order": 4, "start": 30, "end": 34, "text": "注意安全", "continues_to": "f7a"},
+    {"id": "f7a", "paragraph": "p5", "page": 2, "layout_order": 6, "start": 26, "end": 30, "text": "保持通道", "continues_to": "f8"},
+    {"id": "f7b", "paragraph": "p5", "page": 2, "layout_order": 6, "start": 26, "end": 30, "text": "保持通畅", "continues_to": "f8"},
+    {"id": "f8", "paragraph": "p6", "page": 2, "layout_order": 7, "start": 34, "end": 38, "text": "完成签到", "continues_to": "f9"},
+    {"id": "f10", "paragraph": "p9", "page": 2, "layout_order": 8, "start": 38, "end": 42, "text": "补充说明", "continues_to": "f9"},
+    {"id": "f9", "paragraph": "p7", "page": 2, "layout_order": 9, "start": 42, "end": 46, "text": "结束用语", "continues_to": "f11"},
+    {"id": "f11", "paragraph": "p10", "page": 2, "layout_order": 10, "start": 46, "end": 50, "text": "散会离场", "continues_to": "f99"},
+    {"id": "f12", "paragraph": "p8", "page": 2, "layout_order": 11, "start": 50, "end": 54, "text": "参考附录", "continues_to": "f13"},
+    {"id": "f13", "paragraph": "p8", "page": 2, "layout_order": 12, "start": 54, "end": 58, "text": "附录回指", "continues_to": "f12"}
+  ],
+  "margin_notes": [
+    {"id": "n1", "start": 100, "end": 111, "text": "Wear gloves", "language": "en"},
+    {"id": "n2", "start": 120, "end": 124, "text": "注意通风"},
+    {"id": "n3", "start": 130, "end": 134, "text": "备用出口"}
+  ],
+  "citations": [
+    {"id": "c1", "note": "n1", "anchor": "f2", "page": 2, "layout_order": 4},
+    {"id": "c2", "note": "n1", "anchor": "f3", "page": 2, "layout_order": 6},
+    {"id": "c3", "note": "n2", "anchor": "f5", "page": 2, "layout_order": 7},
+    {"id": "c4", "note": "n2", "anchor": "f6", "page": 2, "layout_order": 7},
+    {"id": "c5", "note": "n99", "anchor": "f9", "page": 2, "layout_order": 8}
+  ],
+  "language_declarations": [
+    {"id": "d1", "level": "paragraph", "start": 0, "end": 9, "language": "zh-Hans"},
+    {"id": "d2", "level": "phrase", "start": 9, "end": 13, "language": "en"},
+    {"id": "d3", "level": "phrase", "start": 11, "end": 15, "language": "fr"},
+    {"id": "d4", "level": "paragraph", "start": 22, "end": 26, "language": "en"},
+    {"id": "d5", "level": "paragraph", "start": 22, "end": 26, "language": "fr"},
+    {"id": "d6", "level": "phrase", "start": 54, "end": 111, "language": "en"},
+    {"id": "d7", "level": "phrase", "start": 500, "end": 510, "language": "en"},
+    {"id": "d8", "level": "phrase", "start": 26, "end": 30, "language": "en"}
+  ]
+}

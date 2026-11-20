@@ -1,0 +1,378 @@
+[
+  {
+    "chain": 1,
+    "continuity": "confirmed",
+    "fact_id": "order:0-4",
+    "layout_order": 1,
+    "member_exports": [
+      "f1",
+      "f1b"
+    ],
+    "page": 1,
+    "paragraph": "p1",
+    "position": {
+      "end": 4,
+      "start": 0
+    },
+    "predecessor": null,
+    "segment": "text:0-4",
+    "status": "confirmed",
+    "successor": "order:4-9"
+  },
+  {
+    "chain": 1,
+    "continuity": "confirmed",
+    "fact_id": "order:4-9",
+    "layout_order": 1,
+    "member_exports": [
+      "f2"
+    ],
+    "page": 2,
+    "paragraph": "p1",
+    "position": {
+      "end": 9,
+      "start": 4
+    },
+    "predecessor": "order:0-4",
+    "segment": "text:4-9",
+    "status": "confirmed",
+    "successor": "order:9-16"
+  },
+  {
+    "chain": 1,
+    "continuity": "confirmed",
+    "fact_id": "order:9-16",
+    "layout_order": 5,
+    "member_exports": [
+      "f3"
+    ],
+    "page": 2,
+    "paragraph": "p2",
+    "position": {
+      "end": 16,
+      "start": 9
+    },
+    "predecessor": "order:4-9",
+    "segment": "text:9-16",
+    "status": "confirmed",
+    "successor": "order:16-22"
+  },
+  {
+    "chain": 1,
+    "continuity": "confirmed",
+    "fact_id": "order:16-22",
+    "layout_order": 2,
+    "member_exports": [
+      "f4"
+    ],
+    "page": 2,
+    "paragraph": "p2",
+    "position": {
+      "end": 22,
+      "start": 16
+    },
+    "predecessor": "order:9-16",
+    "segment": "text:16-22",
+    "status": "confirmed",
+    "successor": "order:22-26"
+  },
+  {
+    "chain": 1,
+    "continuity": "confirmed",
+    "fact_id": "order:22-26",
+    "layout_order": 3,
+    "member_exports": [
+      "f5"
+    ],
+    "page": 2,
+    "paragraph": "p3",
+    "position": {
+      "end": 26,
+      "start": 22
+    },
+    "predecessor": "order:16-22",
+    "segment": "text:22-26",
+    "status": "confirmed",
+    "successor": "order:30-34"
+  },
+  {
+    "chain": 1,
+    "continuity": "confirmed",
+    "fact_id": "order:26-30",
+    "layout_order": 6,
+    "member_exports": [
+      "f7a",
+      "f7b"
+    ],
+    "page": 2,
+    "paragraph": "p5",
+    "position": {
+      "end": 30,
+      "start": 26
+    },
+    "predecessor": "order:30-34",
+    "segment": "text:26-30",
+    "status": "to_verify",
+    "successor": "order:34-38",
+    "texts": [
+      "保持通道",
+      "保持通畅"
+    ]
+  },
+  {
+    "chain": 1,
+    "continuity": "confirmed",
+    "fact_id": "order:30-34",
+    "layout_order": 4,
+    "member_exports": [
+      "f6"
+    ],
+    "page": 2,
+    "paragraph": "p4",
+    "position": {
+      "end": 34,
+      "start": 30
+    },
+    "predecessor": "order:22-26",
+    "segment": "text:30-34",
+    "status": "confirmed",
+    "successor": "order:26-30"
+  },
+  {
+    "chain": 1,
+    "continuity": "fork",
+    "fact_id": "order:34-38",
+    "layout_order": 7,
+    "member_exports": [
+      "f8"
+    ],
+    "page": 2,
+    "paragraph": "p6",
+    "position": {
+      "end": 38,
+      "start": 34
+    },
+    "predecessor": "order:26-30",
+    "segment": "text:34-38",
+    "status": "to_verify",
+    "successor": null,
+    "targets": [
+      "f9"
+    ]
+  },
+  {
+    "chain": 2,
+    "continuity": "fork",
+    "fact_id": "order:38-42",
+    "layout_order": 8,
+    "member_exports": [
+      "f10"
+    ],
+    "page": 2,
+    "paragraph": "p9",
+    "position": {
+      "end": 42,
+      "start": 38
+    },
+    "predecessor": null,
+    "segment": "text:38-42",
+    "status": "to_verify",
+    "successor": null,
+    "targets": [
+      "f9"
+    ]
+  },
+  {
+    "chain": 3,
+    "continuity": "confirmed",
+    "fact_id": "order:42-46",
+    "layout_order": 9,
+    "member_exports": [
+      "f9"
+    ],
+    "page": 2,
+    "paragraph": "p7",
+    "position": {
+      "end": 46,
+      "start": 42
+    },
+    "predecessor": null,
+    "predecessor_candidates": [
+      "order:34-38",
+      "order:38-42"
+    ],
+    "segment": "text:42-46",
+    "status": "confirmed",
+    "successor": "order:46-50"
+  },
+  {
+    "broken_target": "f99",
+    "chain": 3,
+    "continuity": "broken",
+    "fact_id": "order:46-50",
+    "layout_order": 10,
+    "member_exports": [
+      "f11"
+    ],
+    "page": 2,
+    "paragraph": "p10",
+    "position": {
+      "end": 50,
+      "start": 46
+    },
+    "predecessor": "order:42-46",
+    "segment": "text:46-50",
+    "status": "to_verify",
+    "successor": null
+  },
+  {
+    "chain": 4,
+    "continuity": "loop",
+    "fact_id": "order:50-54",
+    "layout_order": 11,
+    "member_exports": [
+      "f12"
+    ],
+    "page": 2,
+    "paragraph": "p8",
+    "position": {
+      "end": 54,
+      "start": 50
+    },
+    "predecessor": "order:54-58",
+    "segment": "text:50-54",
+    "status": "to_verify",
+    "successor": "order:54-58"
+  },
+  {
+    "chain": 4,
+    "continuity": "loop",
+    "fact_id": "order:54-58",
+    "layout_order": 12,
+    "member_exports": [
+      "f13"
+    ],
+    "page": 2,
+    "paragraph": "p8",
+    "position": {
+      "end": 58,
+      "start": 54
+    },
+    "predecessor": "order:50-54",
+    "segment": "text:54-58",
+    "status": "to_verify",
+    "successor": "order:50-54"
+  },
+  {
+    "candidates": [],
+    "citations": [
+      "c1",
+      "c2"
+    ],
+    "fact_id": "note:n1",
+    "inserted_after": "text:4-9",
+    "position": {
+      "end": 111,
+      "start": 100
+    },
+    "position_confirmed": true,
+    "read_at": "c1",
+    "status": "confirmed",
+    "traced_from": [
+      "c2"
+    ]
+  },
+  {
+    "candidates": [
+      "c3",
+      "c4"
+    ],
+    "citations": [
+      "c3",
+      "c4"
+    ],
+    "fact_id": "note:n2",
+    "inserted_after": "text:22-26",
+    "position": {
+      "end": 124,
+      "start": 120
+    },
+    "position_confirmed": false,
+    "read_at": null,
+    "status": "to_verify",
+    "traced_from": []
+  },
+  {
+    "citations": [],
+    "fact_id": "note:n3",
+    "position": {
+      "end": 134,
+      "start": 130
+    },
+    "status": "no_citation"
+  },
+  {
+    "exports": [
+      "f7a",
+      "f7b"
+    ],
+    "fact_id": "dispute:contradictory_exports:26-30",
+    "layouts": [
+      {
+        "layout_order": 6,
+        "page": 2
+      }
+    ],
+    "paragraphs": [
+      "p5"
+    ],
+    "position": {
+      "end": 30,
+      "start": 26
+    },
+    "texts": [
+      "保持通道",
+      "保持通畅"
+    ],
+    "type": "contradictory_exports"
+  },
+  {
+    "fact_id": "dispute:broken_continuation:46-50",
+    "missing_target": "f99",
+    "source": "order:46-50",
+    "type": "broken_continuation"
+  },
+  {
+    "fact_id": "dispute:fork:42-46",
+    "predecessors": [
+      "order:34-38",
+      "order:38-42"
+    ],
+    "target": "order:42-46",
+    "type": "fork"
+  },
+  {
+    "fact_id": "dispute:loop:50-54",
+    "members": [
+      "order:50-54",
+      "order:54-58"
+    ],
+    "type": "loop"
+  },
+  {
+    "anchor": "f9",
+    "citation": "c5",
+    "fact_id": "dispute:broken_citation:c5",
+    "note": "n99",
+    "type": "broken_citation"
+  },
+  {
+    "candidates": [
+      "c3",
+      "c4"
+    ],
+    "fact_id": "dispute:citation_order:n2",
+    "note": "n2",
+    "type": "citation_order"
+  }
+]

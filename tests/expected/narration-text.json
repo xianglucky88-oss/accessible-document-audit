@@ -1,0 +1,580 @@
+[
+  {
+    "chain": 1,
+    "continues_to": "text:4-9",
+    "continuity": "confirmed",
+    "fact_id": "text:0-4",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [
+          "d1"
+        ],
+        "end": 4,
+        "language": "zh-Hans",
+        "source": "paragraph",
+        "start": 0,
+        "status": "confirmed",
+        "text": "安全须知"
+      }
+    ],
+    "layout_order": 1,
+    "member_exports": [
+      "f1",
+      "f1b"
+    ],
+    "needs_review": false,
+    "page": 1,
+    "paragraph": "p1",
+    "position": {
+      "end": 4,
+      "start": 0
+    },
+    "review_reasons": [],
+    "sequence": 1,
+    "text": "安全须知",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 1,
+    "continues_to": "text:9-16",
+    "continuity": "confirmed",
+    "fact_id": "text:4-9",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [
+          "d1"
+        ],
+        "end": 9,
+        "language": "zh-Hans",
+        "source": "paragraph",
+        "start": 4,
+        "status": "confirmed",
+        "text": "请阅读边注"
+      }
+    ],
+    "layout_order": 1,
+    "member_exports": [
+      "f2"
+    ],
+    "needs_review": false,
+    "page": 2,
+    "paragraph": "p1",
+    "position": {
+      "end": 9,
+      "start": 4
+    },
+    "review_reasons": [],
+    "sequence": 2,
+    "text": "请阅读边注",
+    "text_status": "confirmed"
+  },
+  {
+    "candidates": [],
+    "fact_id": "text:note:n1",
+    "inserted_after": "text:4-9",
+    "kind": "margin_note",
+    "language": [
+      {
+        "declarations": [
+          "note:n1"
+        ],
+        "end": 111,
+        "language": "en",
+        "source": "paragraph",
+        "start": 100,
+        "status": "confirmed",
+        "text": "Wear gloves"
+      }
+    ],
+    "needs_review": false,
+    "note": "n1",
+    "position": {
+      "end": 111,
+      "start": 100
+    },
+    "position_confirmed": true,
+    "read_at": "c1",
+    "review_reasons": [],
+    "sequence": 3,
+    "text": "Wear gloves",
+    "traced_from": [
+      "c2"
+    ]
+  },
+  {
+    "chain": 1,
+    "continues_to": "text:16-22",
+    "continuity": "confirmed",
+    "fact_id": "text:9-16",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [
+          "d2"
+        ],
+        "end": 11,
+        "language": "en",
+        "source": "phrase",
+        "start": 9,
+        "status": "confirmed",
+        "text": "操作"
+      },
+      {
+        "claims": [
+          "en",
+          "fr"
+        ],
+        "declarations": [
+          "d2",
+          "d3"
+        ],
+        "end": 13,
+        "language": null,
+        "reason": "conflicting phrase declarations",
+        "source": "phrase",
+        "start": 11,
+        "status": "to_verify",
+        "text": "前检"
+      },
+      {
+        "declarations": [
+          "d3"
+        ],
+        "end": 15,
+        "language": "fr",
+        "source": "phrase",
+        "start": 13,
+        "status": "confirmed",
+        "text": "查设"
+      },
+      {
+        "declarations": [],
+        "end": 16,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 15,
+        "status": "confirmed",
+        "text": "备"
+      }
+    ],
+    "layout_order": 5,
+    "member_exports": [
+      "f3"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p2",
+    "position": {
+      "end": 16,
+      "start": 9
+    },
+    "review_reasons": [
+      "language to_verify"
+    ],
+    "sequence": 4,
+    "text": "操作前检查设备",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 1,
+    "continues_to": "text:22-26",
+    "continuity": "confirmed",
+    "fact_id": "text:16-22",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 22,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 16,
+        "status": "confirmed",
+        "text": "确认护具佩戴"
+      }
+    ],
+    "layout_order": 2,
+    "member_exports": [
+      "f4"
+    ],
+    "needs_review": false,
+    "page": 2,
+    "paragraph": "p2",
+    "position": {
+      "end": 22,
+      "start": 16
+    },
+    "review_reasons": [],
+    "sequence": 5,
+    "text": "确认护具佩戴",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 1,
+    "continues_to": "text:30-34",
+    "continuity": "confirmed",
+    "fact_id": "text:22-26",
+    "kind": "body",
+    "language": [
+      {
+        "claims": [
+          "en",
+          "fr"
+        ],
+        "declarations": [
+          "d4",
+          "d5"
+        ],
+        "end": 26,
+        "language": null,
+        "reason": "conflicting paragraph declarations",
+        "source": "paragraph",
+        "start": 22,
+        "status": "to_verify",
+        "text": "注意安全"
+      }
+    ],
+    "layout_order": 3,
+    "member_exports": [
+      "f5"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p3",
+    "position": {
+      "end": 26,
+      "start": 22
+    },
+    "review_reasons": [
+      "language to_verify"
+    ],
+    "sequence": 6,
+    "text": "注意安全",
+    "text_status": "confirmed"
+  },
+  {
+    "candidates": [
+      "c3",
+      "c4"
+    ],
+    "fact_id": "text:note:n2",
+    "inserted_after": "text:22-26",
+    "kind": "margin_note",
+    "language": [
+      {
+        "declarations": [],
+        "end": 124,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 120,
+        "status": "confirmed",
+        "text": "注意通风"
+      }
+    ],
+    "needs_review": true,
+    "note": "n2",
+    "position": {
+      "end": 124,
+      "start": 120
+    },
+    "position_confirmed": false,
+    "read_at": null,
+    "review_reasons": [
+      "citation order unconfirmed"
+    ],
+    "sequence": 7,
+    "text": "注意通风",
+    "traced_from": []
+  },
+  {
+    "chain": 1,
+    "continues_to": "text:26-30",
+    "continuity": "confirmed",
+    "fact_id": "text:30-34",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 34,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 30,
+        "status": "confirmed",
+        "text": "注意安全"
+      }
+    ],
+    "layout_order": 4,
+    "member_exports": [
+      "f6"
+    ],
+    "needs_review": false,
+    "page": 2,
+    "paragraph": "p4",
+    "position": {
+      "end": 34,
+      "start": 30
+    },
+    "review_reasons": [],
+    "sequence": 8,
+    "text": "注意安全",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 1,
+    "continues_to": "text:34-38",
+    "continuity": "confirmed",
+    "fact_id": "text:26-30",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [
+          "d8"
+        ],
+        "end": 30,
+        "language": "en",
+        "source": "phrase",
+        "start": 26,
+        "status": "confirmed",
+        "text": null
+      }
+    ],
+    "layout_order": 6,
+    "member_exports": [
+      "f7a",
+      "f7b"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p5",
+    "position": {
+      "end": 30,
+      "start": 26
+    },
+    "review_reasons": [
+      "contradictory exports"
+    ],
+    "sequence": 9,
+    "text": null,
+    "text_status": "to_verify",
+    "variants": [
+      "保持通道",
+      "保持通畅"
+    ]
+  },
+  {
+    "chain": 1,
+    "continues_to": null,
+    "continuity": "fork",
+    "fact_id": "text:34-38",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 38,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 34,
+        "status": "confirmed",
+        "text": "完成签到"
+      }
+    ],
+    "layout_order": 7,
+    "member_exports": [
+      "f8"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p6",
+    "position": {
+      "end": 38,
+      "start": 34
+    },
+    "review_reasons": [
+      "fork"
+    ],
+    "sequence": 10,
+    "targets": [
+      "f9"
+    ],
+    "text": "完成签到",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 2,
+    "continues_to": null,
+    "continuity": "fork",
+    "fact_id": "text:38-42",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 42,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 38,
+        "status": "confirmed",
+        "text": "补充说明"
+      }
+    ],
+    "layout_order": 8,
+    "member_exports": [
+      "f10"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p9",
+    "position": {
+      "end": 42,
+      "start": 38
+    },
+    "review_reasons": [
+      "fork"
+    ],
+    "sequence": 11,
+    "targets": [
+      "f9"
+    ],
+    "text": "补充说明",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 3,
+    "continues_to": "text:46-50",
+    "continuity": "confirmed",
+    "fact_id": "text:42-46",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 46,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 42,
+        "status": "confirmed",
+        "text": "结束用语"
+      }
+    ],
+    "layout_order": 9,
+    "member_exports": [
+      "f9"
+    ],
+    "needs_review": false,
+    "page": 2,
+    "paragraph": "p7",
+    "position": {
+      "end": 46,
+      "start": 42
+    },
+    "review_reasons": [],
+    "sequence": 12,
+    "text": "结束用语",
+    "text_status": "confirmed"
+  },
+  {
+    "broken_target": "f99",
+    "chain": 3,
+    "continues_to": null,
+    "continuity": "broken",
+    "fact_id": "text:46-50",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 50,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 46,
+        "status": "confirmed",
+        "text": "散会离场"
+      }
+    ],
+    "layout_order": 10,
+    "member_exports": [
+      "f11"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p10",
+    "position": {
+      "end": 50,
+      "start": 46
+    },
+    "review_reasons": [
+      "broken continuation"
+    ],
+    "sequence": 13,
+    "text": "散会离场",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 4,
+    "continues_to": "text:54-58",
+    "continuity": "loop",
+    "fact_id": "text:50-54",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 54,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 50,
+        "status": "confirmed",
+        "text": "参考附录"
+      }
+    ],
+    "layout_order": 11,
+    "member_exports": [
+      "f12"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p8",
+    "position": {
+      "end": 54,
+      "start": 50
+    },
+    "review_reasons": [
+      "loop"
+    ],
+    "sequence": 14,
+    "text": "参考附录",
+    "text_status": "confirmed"
+  },
+  {
+    "chain": 4,
+    "continues_to": "text:50-54",
+    "continuity": "loop",
+    "fact_id": "text:54-58",
+    "kind": "body",
+    "language": [
+      {
+        "declarations": [],
+        "end": 58,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 54,
+        "status": "confirmed",
+        "text": "附录回指"
+      }
+    ],
+    "layout_order": 12,
+    "member_exports": [
+      "f13"
+    ],
+    "needs_review": true,
+    "page": 2,
+    "paragraph": "p8",
+    "position": {
+      "end": 58,
+      "start": 54
+    },
+    "review_reasons": [
+      "loop"
+    ],
+    "sequence": 15,
+    "text": "附录回指",
+    "text_status": "confirmed"
+  }
+]

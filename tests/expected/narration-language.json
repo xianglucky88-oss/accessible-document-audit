@@ -1,0 +1,390 @@
+[
+  {
+    "declarations": [
+      "d1"
+    ],
+    "fact_id": "lang:p1",
+    "pages": [
+      1,
+      2
+    ],
+    "paragraph": "p1",
+    "ranges": [
+      {
+        "declarations": [
+          "d1"
+        ],
+        "end": 9,
+        "language": "zh-Hans",
+        "source": "paragraph",
+        "start": 0,
+        "status": "confirmed",
+        "text": "安全须知请阅读边注"
+      }
+    ],
+    "segments": [
+      "text:0-4",
+      "text:4-9"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [
+      "d2",
+      "d3"
+    ],
+    "fact_id": "lang:p2",
+    "pages": [
+      2
+    ],
+    "paragraph": "p2",
+    "ranges": [
+      {
+        "declarations": [
+          "d2"
+        ],
+        "end": 11,
+        "language": "en",
+        "source": "phrase",
+        "start": 9,
+        "status": "confirmed",
+        "text": "操作"
+      },
+      {
+        "claims": [
+          "en",
+          "fr"
+        ],
+        "declarations": [
+          "d2",
+          "d3"
+        ],
+        "end": 13,
+        "language": null,
+        "reason": "conflicting phrase declarations",
+        "source": "phrase",
+        "start": 11,
+        "status": "to_verify",
+        "text": "前检"
+      },
+      {
+        "declarations": [
+          "d3"
+        ],
+        "end": 15,
+        "language": "fr",
+        "source": "phrase",
+        "start": 13,
+        "status": "confirmed",
+        "text": "查设"
+      },
+      {
+        "declarations": [],
+        "end": 22,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 15,
+        "status": "confirmed",
+        "text": "备确认护具佩戴"
+      }
+    ],
+    "segments": [
+      "text:9-16",
+      "text:16-22"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [
+      "d4",
+      "d5"
+    ],
+    "fact_id": "lang:p3",
+    "pages": [
+      2
+    ],
+    "paragraph": "p3",
+    "ranges": [
+      {
+        "claims": [
+          "en",
+          "fr"
+        ],
+        "declarations": [
+          "d4",
+          "d5"
+        ],
+        "end": 26,
+        "language": null,
+        "reason": "conflicting paragraph declarations",
+        "source": "paragraph",
+        "start": 22,
+        "status": "to_verify",
+        "text": "注意安全"
+      }
+    ],
+    "segments": [
+      "text:22-26"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [
+      "d8"
+    ],
+    "fact_id": "lang:p5",
+    "pages": [
+      2
+    ],
+    "paragraph": "p5",
+    "ranges": [
+      {
+        "declarations": [
+          "d8"
+        ],
+        "end": 30,
+        "language": "en",
+        "source": "phrase",
+        "start": 26,
+        "status": "confirmed",
+        "text": null
+      }
+    ],
+    "segments": [
+      "text:26-30"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [],
+    "fact_id": "lang:p4",
+    "pages": [
+      2
+    ],
+    "paragraph": "p4",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 34,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 30,
+        "status": "confirmed",
+        "text": "注意安全"
+      }
+    ],
+    "segments": [
+      "text:30-34"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [],
+    "fact_id": "lang:p6",
+    "pages": [
+      2
+    ],
+    "paragraph": "p6",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 38,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 34,
+        "status": "confirmed",
+        "text": "完成签到"
+      }
+    ],
+    "segments": [
+      "text:34-38"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [],
+    "fact_id": "lang:p9",
+    "pages": [
+      2
+    ],
+    "paragraph": "p9",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 42,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 38,
+        "status": "confirmed",
+        "text": "补充说明"
+      }
+    ],
+    "segments": [
+      "text:38-42"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [],
+    "fact_id": "lang:p7",
+    "pages": [
+      2
+    ],
+    "paragraph": "p7",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 46,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 42,
+        "status": "confirmed",
+        "text": "结束用语"
+      }
+    ],
+    "segments": [
+      "text:42-46"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [],
+    "fact_id": "lang:p10",
+    "pages": [
+      2
+    ],
+    "paragraph": "p10",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 50,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 46,
+        "status": "confirmed",
+        "text": "散会离场"
+      }
+    ],
+    "segments": [
+      "text:46-50"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [
+      "d6"
+    ],
+    "fact_id": "lang:p8",
+    "pages": [
+      2
+    ],
+    "paragraph": "p8",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 58,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 50,
+        "status": "confirmed",
+        "text": "参考附录附录回指"
+      }
+    ],
+    "segments": [
+      "text:50-54",
+      "text:54-58"
+    ],
+    "unconfirmable": [
+      {
+        "declaration": "d6",
+        "end": 111,
+        "language": "en",
+        "reason": "declaration spans multiple text units",
+        "start": 54
+      }
+    ]
+  },
+  {
+    "declarations": [
+      "d6",
+      "note:n1"
+    ],
+    "fact_id": "lang:note:n1",
+    "note": "n1",
+    "ranges": [
+      {
+        "declarations": [
+          "note:n1"
+        ],
+        "end": 111,
+        "language": "en",
+        "source": "paragraph",
+        "start": 100,
+        "status": "confirmed",
+        "text": "Wear gloves"
+      }
+    ],
+    "segments": [
+      "text:note:n1"
+    ],
+    "unconfirmable": [
+      {
+        "declaration": "d6",
+        "end": 111,
+        "language": "en",
+        "reason": "declaration spans multiple text units",
+        "start": 54
+      }
+    ]
+  },
+  {
+    "declarations": [],
+    "fact_id": "lang:note:n2",
+    "note": "n2",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 124,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 120,
+        "status": "confirmed",
+        "text": "注意通风"
+      }
+    ],
+    "segments": [
+      "text:note:n2"
+    ],
+    "unconfirmable": []
+  },
+  {
+    "declarations": [],
+    "fact_id": "lang:note:n3",
+    "note": "n3",
+    "ranges": [
+      {
+        "declarations": [],
+        "end": 134,
+        "language": "zh-Hans",
+        "source": "document",
+        "start": 130,
+        "status": "confirmed",
+        "text": "备用出口"
+      }
+    ],
+    "segments": [],
+    "unconfirmable": []
+  },
+  {
+    "declaration": "d7",
+    "fact_id": "lang:declaration:d7",
+    "language": "en",
+    "level": "phrase",
+    "range": {
+      "end": 510,
+      "start": 500
+    },
+    "reason": "no text at declared range",
+    "status": "unconfirmable"
+  }
+]
